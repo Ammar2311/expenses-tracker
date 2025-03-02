@@ -1,0 +1,54 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: #fff;
+}
+.container{
+    background-color: #f3f3f3;
+    width: 60vw;
+    margin: 10vh auto;
+
+    text-align: center;
+
+    padding: 10px;
+}
+.container *{
+    margin:2px;
+}
+
+#name_field{
+     /* width:70%; */
+
+}
+#name{
+    width: 80%  ;
+}
+#date,#amount{
+    width: 34%;
+}
+button{
+    padding:10px;
+    color: white;
+    background-color: green;
+    border: solid #eee 1px;
+    border-radius: 4px;
+}
+h3{
+  color: green;
+}
+
+.expense{
+   display: flex;
+   justify-content: center;
+}
+table,th,td{
+    border: solid #ccc 1px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+td{
+    background-color: #ebe2e2;
+}
